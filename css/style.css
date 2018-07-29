@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Nunito:300,400,600,600i,700,700i,800,800i,900,900i");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+img {
+  width: 100%;
+}
+.heading h1 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.navbar {
+  padding: 20px 0px;
+  background: transparent;
+  transition: all 1s ease-in-out;
+}
+.navbar-brand i {
+  color: #f7f4f3;
+}
+.logo {
+  text-align: center;
+  border: 5px solid #f7f4f3;
+  padding: 15px 18px;
+  font-size: 32px;
+  border-radius: 50%;
+  transition: all 0.4s ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #f7f4f3;
+}
+.navbar.menu-show .logo {
+  font-size: 20px;
+  padding: 10px 12px;
+}
+.navbar.menu-show {
+  background: #e71919 none repeat scroll 0 0;
+  padding: 10px 0;
+  width: 100%;
+  margin-top: 0px;
+}
+li.nav-item {
+  padding: 0px 10px;
+}
+.nav-item a {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.jumbotron {
+  background-image: url(../images/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.jumbotron-content {
+  padding-top: 10em;
+  color: #f7f4f3;
+}
+.jumbotron-content h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 5em;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.jumbotron-content h5 {
+  font-size: 18px;
+  padding-right: 10em;
+  line-height: 1.4em;
+  font-weight: 400;
+}
+.btn-header {
+  font-size: 14px;
+  margin-top: 20px;
+  border: 1px solid transparent;
+  color: #f7f4f3;
+  border-radius: 50px;
+  padding: 15px 35px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: 700;
+  background-color: #e71919;
+}
+.btn:focus {
+  outline: 0;
+}
+.service,
+.about,
+.gallery,
+.contact {
+  position: relative;
+  padding: 6em 0;
+}
+
+.about {
+  background-color: #eee;
+}
+
+.profile img {
+  object-fit: cover;
+  width: 100%;
+  padding-right: 20px;
+  height: 90vh;
+  overflow: hidden;
+}
+.about-content {
+  margin: 1.5em 0;
+}
+.about-content h1 {
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.about-line {
+  width: 20%;
+  background-color: #353535;
+  border-width: 4px;
+  margin-left: 0;
+  border-radius: 50px;
+  margin-top: -5px;
+  margin-bottom: 30px;
+}
+
+.about-content p {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.service-content {
+  border: 1px solid transparent;
+  background-color: #e71919;
+  padding: 3em 2em;
+  text-align: center;
+  color: #f7f4f3;
+}
+
+.service-content i {
+  color: #333333;
+  border-radius: 50px;
+  font-size: 3em;
+  border: 2px solid transparent;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  background-color: #f7f4f3;
+}
+
+.service-content p {
+  margin-top: 20px;
+  line-height: 26px;
+}
+
+.service-content h4 {
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.gallery {
+  background-color: #eee;
+}
+
+.produk-image img {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
+
+#produk-group .mix {
+  display: none;
+}
+
+.filter-btn {
+  margin-bottom: 3em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.filter {
+  font-size: 14px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e71919;
+  color: #fff;
+  margin: 0px 5px;
+}
+
+.produk-item {
+  margin-bottom: 30px;
+}
+
+.produk-content {
+  color: #f7f4f3;
+  padding: 12px 25px;
+  background-color: #e71919;
+}
+
+.form-control {
+  border-radius: 0;
+  padding: 12px 25px;
+}
+
+::placeholder {
+  font-size: 13px;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #eee;
+  outline: 0;
+  box-shadow: none;
+}
+
+.btn-form {
+  padding: 10px 25px;
+  margin-top: 20px;
+  border-radius: 0;
+  background-color: #e71919;
+  color: #f7f4f3;
+}
+
+.footer {
+  background-color: #e71919;
+  padding: 5em 0 3em 0;
+  color: #f7f4f3;
+}
+
+.footer p {
+  line-height: 26px;
+}
+.footer h4 {
+  font-weight: 800;
+  text-transform: capitalize;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+.footer i {
+  color: #f7f4f3;
+  font-size: 30px;
+  padding: 10px;
+}

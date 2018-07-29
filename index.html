@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Restaurant</title>
+    <!-- Bootstrap Style -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font-Awesome Style -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Style Css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-expand-sm navbar-light menu-nav">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <i class="fa fa-cutlery logo" aria-hidden="true"></i>
+                </a>
+                <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#header">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#service">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar End -->
+
+        <!-- Jumbotron -->
+        <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="jumbotron-content">
+                            <h1>Sea Food</h1>
+                            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quod quis. Ipsum, nisi eveniet.
+                                Ut iste</h5>
+                            <a href="../todolist/index.html" target="Blank" class="btn btn-header">
+                                <i class="fa fa-shopping-basket"></i>Pesan Disini</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Jumbotron End -->
+
+    </header>
+    <!-- Header End -->
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="profile">
+                        <img src="images/profile.jpg" alt="Profile">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="about-content">
+                        <h1>About Us</h1>
+                        <hr class="about-line">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quibusdam veritatis molestias at perspiciatis
+                            ducimus in tempora autem labore rem? Quisquam quam, in accusantium veniam inventore consectetur
+                            autem minima ipsa.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt veritatis sed laboriosam architecto?
+                            Atque totam eveniet, molestias quos facilis ipsum. Voluptates sunt, dolore dolorum praesentium
+                            aliquid molestiae ipsa labore eos!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service -->
+    <section id="service" class="service">
+        <div class="container">
+            <div class="heading">
+                <h1>Service</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service-content">
+                        <i class="fa fa-cutlery"></i>
+                        <h4>Delivery Order</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis accusantium eaque adipisci,
+                            deserunt architecto officiis fuga cupiditate quisquam quas nostrum quis, distinctio aperiam enim!
+                            Molestias voluptates repudiandae iure totam minus.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-content">
+                        <i class="fa fa-cutlery"></i>
+                        <h4>Delivery Order</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis accusantium eaque adipisci,
+                            deserunt architecto officiis fuga cupiditate quisquam quas nostrum quis, distinctio aperiam enim!
+                            Molestias voluptates repudiandae iure totam minus.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-content">
+                        <i class="fa fa-cutlery"></i>
+                        <h4>Delivery Order</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis accusantium eaque adipisci,
+                            deserunt architecto officiis fuga cupiditate quisquam quas nostrum quis, distinctio aperiam enim!
+                            Molestias voluptates repudiandae iure totam minus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service End -->
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="heading">
+                <h1>Gallery</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="filter-btn text-center">
+                        <div class="filter active" data-filter="all">Semua Menu</div>
+                        <div class="filter" data-filter=".spesial">Spesial</div>
+                        <div class="filter" data-filter=".dessert">Dessert</div>
+                        <div class="filter" data-filter=".drink">Drink</div>
+                    </div>
+                    <div id="produk-group">
+                        <div class="row">
+                            <div class="spesial produk-grid mix col-lg-3 col-md-6 col-6">
+                                <div class="produk-item">
+                                    <div class="produk-image">
+                                        <a>
+                                            <img src="images/gallery.jpg" />
+                                        </a>
+                                    </div>
+                                    <div class="produk-content">
+                                        <h5 class="produk-title">Sushi Tea</h5>
+                                        <p class="produk-price">Rp. 150.000</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="drink produk-grid mix col-lg-3 col-md-6 col-6">
+                                <div class="produk-item">
+                                    <div class="produk-image">
+                                        <a>
+                                            <img src="images/gallery1.jpg" />
+                                        </a>
+                                    </div>
+                                    <div class="produk-content">
+                                        <h5 class="produk-title">Cumi Goreng</h5>
+                                        <p class="produk-price">Rp. 5.000</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dessert produk-grid mix col-lg-3 col-md-6 col-6">
+                                <div class="produk-item">
+                                    <div class="produk-image">
+                                        <a>
+                                            <img src="images/gallery2.jpg" />
+                                        </a>
+                                    </div>
+                                    <div class="produk-content">
+                                        <h5 class="produk-title">Nasi Spesial</h5>
+                                        <p class="produk-price">Rp. 300.000</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dessert produk-grid mix col-lg-3 col-md-6 col-6">
+                                <div class="produk-item">
+                                    <div class="produk-image">
+                                        <a>
+                                            <img src="images/gallery3.jpg" />
+                                        </a>
+                                    </div>
+                                    <div class="produk-content">
+                                        <h5 class="produk-title">Burger Salmon</h5>
+                                        <p class="produk-price">Rp. 300.000</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="drink produk-grid mix col-lg-3 col-md-6 col-6">
+                                <div class="produk-item">
+                                    <div class="produk-image">
+                                        <a>
+                                            <img src="images/gallery4.jpg" />
+                                        </a>
+                                    </div>
+                                    <div class="produk-content">
+                                        <h5 class="produk-title">Salmon Spesial</h5>
+                                        <p class="produk-price">Rp. 30.000</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="spesial produk-grid mix col-lg-3 col-md-6 col-6">
+                                <div class="produk-item">
+                                    <div class="produk-image">
+                                        <a>
+                                            <img src="images/gallery5.jpg" />
+                                        </a>
+                                    </div>
+                                    <div class="produk-content">
+                                        <h5 class="produk-title">Ramen Eggs</h5>
+                                        <p class="produk-price">Rp. 155.000</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dessert produk-grid mix col-lg-3 col-md-6 col-6">
+                                <div class="produk-item">
+                                    <div class="produk-image">
+                                        <a>
+                                            <img src="images/gallery6.jpg" />
+                                        </a>
+                                    </div>
+                                    <div class="produk-content">
+                                        <h5 class="produk-title">Donat Rice</h5>
+                                        <p class="produk-price">Rp. 400.000</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="drink produk-grid mix col-lg-3 col-md-6 col-6">
+                                <div class="produk-item">
+                                    <div class="produk-image">
+                                        <a>
+                                            <img src="images/gallery7.jpg" />
+                                        </a>
+                                    </div>
+                                    <div class="produk-content">
+                                        <h5 class="produk-title">Tea Jus</h5>
+                                        <p class="produk-price">Rp. 120.000</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery End -->
+
+    <!-- Contact Us -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="heading">
+                <h1>Contact Us</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 ">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-form">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Us -->
+
+    <!-- Footer  -->
+    <Footer class="footer text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis tenetur impedit quos vel est alias
+                        facilis corporis! In nesciunt dolor necessitatibus unde placeat non at, quia, iure debitis dolore
+                        natus.
+                    </p>
+                    <h4>Follow Media Sosial Kita</h4>
+                    <div class="footer-link">
+                        <a href="">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-telegram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Footer>
+    <!-- Footer End -->
+</body>
+<!-- JQuery 3.3.1 Script -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<!-- Bootstrap Script -->
+<script src="js/bootstrap.min.js"></script>
+<!-- MixItup Script -->
+<script src="js/jquery.mixitup.js"></script>
+<!-- Custom Script -->
+<script src="js/custom.js"></script>
+
+</html>
